@@ -206,10 +206,6 @@ postech-fase4-g22/
 ├── requirements.txt
 ├── verificar_projeto.py
 ├── README.md
-├── GUIA_RAPIDO.txt
-├── 1_INSTALAR.bat
-├── 2_TESTAR.bat
-├── 3_INICIAR_APP.bat
 │
 ├── pages/
 │   ├── 1_Predicao.py
@@ -244,80 +240,6 @@ postech-fase4-g22/
         └── y_test.csv
 ```
 
-## Execução local simplificada no Windows
-
-### 1. Baixar o projeto
-
-No GitHub, selecione:
-
-```text
-Code → Download ZIP
-```
-
-Extraia o arquivo e entre na pasta do projeto.
-
-### 2. Instalar
-
-Execute:
-
-```text
-1_INSTALAR.bat
-```
-
-A primeira instalação pode levar alguns minutos.
-
-### 3. Testar
-
-Execute:
-
-```text
-2_TESTAR.bat
-```
-
-O resultado esperado deve conter:
-
-```text
-Projeto verificado com sucesso.
-```
-
-### 4. Iniciar a aplicação
-
-Execute:
-
-```text
-3_INICIAR_APP.bat
-```
-
-A aplicação será aberta em:
-
-```text
-http://localhost:8501
-```
-
-## Execução pelo terminal
-
-### Windows
-
-```powershell
-py -3.13 -m venv .venv
-.venv\Scripts\activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python verificar_projeto.py
-python -m streamlit run app.py
-```
-
-### macOS ou Linux
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python verificar_projeto.py
-python -m streamlit run app.py
-```
-
 ## Verificação automática
 
 O arquivo `verificar_projeto.py` realiza as seguintes verificações:
@@ -335,21 +257,6 @@ Para executar:
 ```bash
 python verificar_projeto.py
 ```
-
-## Deploy no Streamlit Community Cloud
-
-Para publicar a aplicação:
-
-1. Acesse [share.streamlit.io](https://share.streamlit.io/).
-2. Entre utilizando uma conta do GitHub.
-3. Selecione **Create app**.
-4. Escolha este repositório.
-5. Utilize a branch `main`.
-6. Informe `app.py` como arquivo principal.
-7. Selecione Python 3.13 nas configurações avançadas.
-8. Clique em **Deploy**.
-
-Após o deploy, os links da aplicação e do dashboard devem ser adicionados no início deste README e no arquivo de links da entrega.
 
 ## Limitações
 
