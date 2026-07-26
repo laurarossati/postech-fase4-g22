@@ -1,0 +1,40 @@
+GUIA RÁPIDO - PROJETO STREAMLIT
+================================
+
+1. Extraia todo o conteúdo do arquivo ZIP.
+
+2. Entre na pasta extraída.
+
+3. Dê dois cliques em:
+   1_INSTALAR.bat
+
+   A primeira instalação pode levar alguns minutos.
+
+4. Quando a instalação terminar, dê dois cliques em:
+   2_TESTAR.bat
+
+   O resultado esperado contém a frase:
+   "Projeto verificado com sucesso."
+
+5. Para abrir a aplicação, dê dois cliques em:
+   3_INICIAR_APP.bat
+
+6. O navegador deverá abrir automaticamente.
+   Se isso não acontecer, acesse:
+   http://localhost:8501
+
+7. Para classificar um arquivo:
+   - Abra "Predição em lote" no menu lateral.
+   - Envie um arquivo CSV.
+   - Confira o resultado e o novo dashboard.
+   - Clique em "Baixar resultado completo".
+
+   A página também oferece um CSV de exemplo para download.
+
+8. Para encerrar a aplicação, feche a janela preta ou pressione Ctrl+C nela.
+
+IMPORTANTE
+----------
+- Não retire arquivos das pastas artifacts, data, pages ou src.
+- O aplicativo precisa da estrutura completa da pasta.
+- A aplicação é acadêmica e não substitui diagnóstico médico.
