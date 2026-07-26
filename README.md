@@ -6,8 +6,8 @@ O projeto utiliza Machine Learning para classificar o nível de obesidade a part
 
 ## Aplicação publicada
 
-- **Aplicação Streamlit:** `preencher após o deploy`
-- **Dashboard analítico:** `preencher após o deploy`
+- **Aplicação Streamlit:** `[Aplicação](https://postech-fase4-g22-nivel-obesidade.streamlit.app/)`
+- **Dashboard analítico:** `[Dashboard](https://postech-fase4-g22-nivel-obesidade.streamlit.app/Dashboard)`
 - **Repositório GitHub:** [postech-fase4-g22](https://github.com/laurarossati/postech-fase4-g22)
 - **Vídeo de apresentação:** `preencher após a gravação`
 
